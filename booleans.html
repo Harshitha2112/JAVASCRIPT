@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+          <head>
+                    <title>
+                              booleans practice
+                    </title>
+          </head>
+          <body>
+                    <script>
+                              console.log(3>5);// it will check whether it is true or not//
+
+
+                              console.log(5=='5.00');//it will show as true even though both have diff datatypes,it will convert both into same datatype so we dont use this in js//
+                              console.log(5==='5.00');// result in false coz datatypes r diff// 
+                              console.log(5!='5.00'); // not used in js//
+                              console.log(5!=='5.00');
+
+
+                              if(30<=10){
+                                        console.log('hello');
+
+                              }else if(30>=10){
+                                        console.log('else if');
+                              } else{
+                                        console.log('else');
+                       
+                           }
+
+                  //logical operators//
+                    console.log(3>0 &&  5>0);
+                    console.log(true && false);
+                    
+                    console.log(3<0 || 3>0);
+                    console.log(true || false);
+
+                    console.log(!false);
+                   
+
+                    // ways of truthy(behave like true) and falsy values(behave like false) like false,0,'',NaN,undefined,null
+                    if(0){
+                              console.log('truthy');
+                    }
+                    
+                    const cartQuantity=5;
+                    if(cartQuantity){           //cartquantity>0 is similar to cartqunatity{if(5)} which is also >0 true//
+                              console.log('cart has products');
+                    }
+                    console.log(!0);             // flip the falsy value//
+                    console.log('text'/5);                 //results in not a number//
+                    let variable;
+                    console.log(variable);        //variable is not defined//
+                   </script>
+          </body>
+</html>
