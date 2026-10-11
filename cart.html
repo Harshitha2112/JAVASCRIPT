@@ -1,0 +1,46 @@
+<html>
+          <head>
+                    <title>
+                              javascript practice
+                    </title>
+          </head>
+          <body>
+                    <button onclick="console.log('cartquantity:0')">show quantity</button>
+                    <button onclick="
+                    cartquantity +=1;
+                    console.log(`cart quantity:${cartquantity}`)
+                    ">
+                              add to cart
+                    </button>
+                    <button onclick="
+                    cartquantity +=2;
+                    console.log(`cart quantity:${cartquantity}`)
+                    ">
+                    +2
+                    </button>
+
+
+                    <button onclick="
+                     cartquantity +=3;
+                     console.log(`cart quantity:${cartquantity}`)">
+                     +3
+                     </button>
+                    <button onclick="
+                    cartquantity =0;
+                    console.log(`cart quantity:${cartquantity}`)
+                    console.log('cart was reset');
+                    ">
+                    
+                    >
+                              reset cart
+
+                    </button><!--we dont want to display 0 everytime ,we wan it to display value inside a cartquantity -->
+                    <button  onclick="console.log(`cart quantity:${cartquantity}`)">show quantity-2</button><!--before assigning the variable we have to use template string(`) and use ${}-->
+                     
+
+          
+                    <script>
+                              let cartquantity =1;
+                    </script>
+          </body>
+</html>
